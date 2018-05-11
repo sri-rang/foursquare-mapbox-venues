@@ -50,7 +50,6 @@ class FullMap extends React.Component {
     }
 
     get_venues() {
-        console.log('get venues');
         const { radius } = this.state;
         const { latitude, longitude } = this.props;
         const { client_id, client_secret, version } = config.foursquare;
