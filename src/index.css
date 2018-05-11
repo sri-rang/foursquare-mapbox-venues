@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.map {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.user_panel {
+    position: fixed;
+    z-index: 2;
+    top: 15%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+
+.user_panel button {
+    font-size: 24px;
+    padding: 24px;
+    box-shadow: #fff 0 0 180px;
+    cursor: pointer;
+    background: #ccc;
+    color: #333;
+}
+
+.user_panel button:disabled {
+    color: #999;
+    cursor: not-allowed;
+}
+
+.selected_venue {
+    padding: 12px;
+}
+
+.selected_venue .name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.selected_venue .address {
+    font-size: 12px;
+}
+
+.map .sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 70vw;
+    background: #ccc;
+}
+
+.radius_control {
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+}
