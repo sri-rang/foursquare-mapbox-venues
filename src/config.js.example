@@ -1,0 +1,10 @@
+export default {
+    foursquare: {
+        client_id: '...',
+        client_secret: '...',
+        version: '...',
+    },
+    mapbox: {
+        key: '',
+    }
+};
